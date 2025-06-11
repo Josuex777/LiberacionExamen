@@ -1,0 +1,53 @@
+.contenido {
+  display: flex;
+  align-items: center;
+}
+
+.derec {
+  float: left;
+  width: 65%;
+}
+.izq {
+  float: right;
+  width: 35%;
+}
+.izq button {
+  background-color: rgb(1, 1, 92);
+  color: white;
+  padding: 8px;
+  border-radius: 15px;
+}
+.izq button:hover {
+  background-color: rgb(73, 73, 168);
+  transform: scale(1.056);
+  border-radius: 15px;
+}
+.basicos {
+  background-color: rgb(222, 221, 220);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 5px;
+  font-size: 12px;
+  justify-content: center;
+}
+.basicos img {
+  width: 400px;
+  height: 400px;
+  justify-content: center !important;
+  text-align: center !important;
+  border-radius: 10px;
+}
+.basicos img:hover {
+  border: solid 2px black;
+  transform: scale(1.05);
+}
+a {
+  text-decoration: none;
+}
+@media (max-width: 760px) {
+  .basicos img {
+    width: 250px;
+    height: 250px;
+  }
+}
